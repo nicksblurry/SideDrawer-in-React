@@ -42,8 +42,8 @@ const MainArea = styled.div`
     flex-direction: row;
     width: 100%;
     height: 700px;
-    background: ${props => props.darkBg ? '#262626' : '#fefefe'};
-    color: ${props => props.darkBg ? '#fff' : '#262626'};
+    background: ${props => props.sandybrown ? 'sandybrown' : props.cadetblue ? 'cadetblue' : '#fefefe'};
+    color: ${props => props.lightColor ? '#fff' : '#262626'};
 `;
 
 const TextPart = styled.div`
@@ -116,7 +116,7 @@ const Home = (props) => {
       </TextPart>
     </MainArea>
 
-    <MainArea id="portfolio" darkBg>
+    <MainArea id="portfolio" sandybrown lightColor>
       <TextPart>
         <h1>Portfolio Area</h1>
         <p>
@@ -147,7 +147,7 @@ const Home = (props) => {
       </TextPart>
     </MainArea>
 
-    <MainArea id="contact" darkBg>
+    <MainArea id="contact" cadetblue lightColor>
       <TextPart>
         <h1>Contact Area</h1>
         <p>

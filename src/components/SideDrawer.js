@@ -46,7 +46,7 @@ const OpenSideDrawer = styled.div`
     left: 0;
     top: 0;
     background-color: #FFFFFF;
-    padding: 3rem 2rem;
+    padding: 4rem;
     overflow: auto;
     z-index: 2147483636;
     animation: ${props => props.open ? 'slideOut 0.5s ease-in-out' : null };
@@ -81,7 +81,7 @@ const Icon = styled.img`
 `;
 
 const Nav = styled.ul`
-    margin: 2rem 0;
+    margin: 4rem 0;
     padding: 0;
 `;
 
@@ -89,11 +89,16 @@ const NavItems = styled.li`
     display: flex;
     justify-content: start;
     align-items: center;
-    margin: 1rem 0 2rem;
+    margin: 1rem 0 3rem;
     list-style: none;
     font-size: 21px;
     line-height: 20px;
     color: #393939;
+
+    &:hover{
+        text-decoration: underline;
+        color: darkorange;
+    }
     
     @media (max-width: 768px) {
         padding: 6px 0px;
