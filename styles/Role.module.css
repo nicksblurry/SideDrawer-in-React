@@ -1,0 +1,224 @@
+.container {
+  font-family: "Poppins", sans-serif !important;
+  min-height: 50vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 60rem; */
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.main h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+.main h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 7px;
+}
+
+.title a {
+  color: red;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  /* text-decoration: underline; */
+}
+
+.center{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto !important;
+}
+
+.title {
+  margin: 0 0 5rem 0;
+  line-height: 1.15;
+  font-size: 5rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 72rem;
+}
+
+.title
+/* .description  */
+{
+  text-align: center;
+}
+
+.subtitle {
+  line-height: 1.5;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.input{
+    margin: 0 -15px 0 27px;
+}
+
+.description{
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  margin: 0 3.8rem 0 1.8rem;
+}
+
+.uploadButton{
+  border: none;
+  font-size: 18px;
+  color: red;
+  cursor: pointer;
+  background: white;
+}
+
+.image{
+    margin: auto;
+    display: block;
+    height: 150px;
+    width: 150px;
+}
+
+.maxWidth{
+    width: 25rem;
+}
+
+.uploadBox{
+    font-size: 16px;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px grey;
+    width: 350px;
+    outline: none;
+    margin: 12px 22px 14px;
+}
+
+.uploadBox::-webkit-file-upload-button{
+    color: white;
+    background: #E97451;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 0 1px 1px red;
+    outline: none;
+}
+
+.uploadBox::-webkit-file-upload-button:hover{
+    background: red;
+}
+
+.submitButton{
+    font-family: "Poppins", sans-serif !important;
+    display:block;
+    padding: 0.8rem;
+    text-align: center;
+    background-color: red;
+    border-style: solid;
+    border-width: 0.5px;
+    color: #FFFFFF;
+    border-color: #A7A7A7 ;
+    border-radius: 50px;
+    width: 13rem;    
+    margin: 4rem auto 1rem;
+    font-size: 20px;
+    font-family: Raleway;
+    line-height: 1rem;
+    font-weight:  normal;
+    cursor: pointer;
+}
+
+.leftSubmitButton{
+    font-family: "Poppins", sans-serif !important;
+    display:block;
+    padding: 0.8rem;
+    text-align: center;
+    background-color: red;
+    border-style: solid;
+    border-width: 0.5px;
+    color: #FFFFFF;
+    border-color: #A7A7A7 ;
+    border-radius: 50px;
+    width: 13rem;    
+    margin: 4rem 0 1rem;
+    font-size: 20px;
+    font-family: Raleway;
+    line-height: 1rem;
+    font-weight:  normal;
+    cursor: pointer;
+}
+
+.quantity {
+    font-size: 18px;
+    margin-top: 10px;
+    text-transform:uppercase;
+    background-color: #FFF9FA;
+    padding: 11px 15px;
+    width:236px;
+    border: 1px solid #EBEBEB;
+    border-radius: 4px;
+}
+
+.inputText{
+  font-size: 18px;
+  margin-top: 10px;
+  background-color: #FFF9FA;
+  padding: 11px 15px;
+  width:236px;
+  border: 1px solid #EBEBEB;
+  border-radius: 4px;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+}
+
+.add {
+    font-size: 18px;
+    margin-top: 54px;
+    text-transform:uppercase;
+    background-color: black;
+    color: white;
+    padding: 11px 15px;
+    width:150px;
+    border: 1px solid #EBEBEB;
+    border-radius: 40px;
+}
+
+.add:disabled{
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+.verticallyCenter{
+  margin: 17px 0 0;
+}
+
+.radioInput{
+   display: block;
+   margin: 16px -15px 0 27px;
+}
+
+.labelInput{
+   display: block;
+   margin: 16px 0 0 0;
+}
+
+.centerDiv{
+  display: block;
+  max-width: 14rem;
+  margin: 2rem auto;
+}

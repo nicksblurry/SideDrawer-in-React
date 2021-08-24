@@ -1,11 +1,11 @@
 .container {
-  min-height: 100vh;
+  min-height: 60vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .main {
@@ -34,20 +34,20 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: red;
   text-decoration: none;
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 .title,
@@ -57,7 +57,9 @@
 
 .description {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 100;
 }
 
 .code {
@@ -93,8 +95,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: red;
+  border-color: red;
 }
 
 .card h2 {

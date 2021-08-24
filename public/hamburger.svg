@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="16px" viewBox="0 0 24 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_hamburger_white</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Specifications" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-264.000000, -1050.000000)" fill="#FFFFFF">
+            <path d="M264,1066 L288,1066 L288,1063.33333 L264,1063.33333 L264,1066 L264,1066 Z M264,1059.33333 L288,1059.33333 L288,1056.66667 L264,1056.66667 L264,1059.33333 L264,1059.33333 Z M264,1050 L264,1052.66667 L288,1052.66667 L288,1050 L264,1050 L264,1050 Z" id="ic_hamburger_white"></path>
+        </g>
+    </g>
+</svg>
